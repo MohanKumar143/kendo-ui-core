@@ -19,7 +19,7 @@ The `"n"` specifier renders a number, as shown below.
 ###### Example
 
     kendo.culture("en-US");
-    kendo.toString(1234.567, "n"); //1,234.57
+    kendo.toString(111234.567, "n"); //1,234.57
 
     kendo.toString(10.12, "n5"); //10.12000
     kendo.toString(10.12, "n0"); //10
